@@ -1,1 +1,25 @@
-/* CSS Style Sheet */
+body {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 600px;
+  margin: 25px auto;
+  text-align: center;
+  padding: 50px 0 0;
+  border-radius: 25px;
+  background-image: url(image/8\ ball.webp);
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+p {
+  font-size: 25px;
+  color: white;
+}
+html {
+  background-image: url(image/galaxy.webp);
+}
