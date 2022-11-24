@@ -3,14 +3,16 @@ body {
   width: 600px;
   margin: 25px auto;
   text-align: center;
-  padding: 500px 0 0;
   border-radius: 25px;
-  background-image: url(image/8\ ball.webp);
+  background-image: url(image/8\ ball.webp) no-repeat center fixed;
+  background-size: cover;
+  padding-bottom: 10px;
 }
 
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
+  margin: 40px 0;
 }
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -23,6 +25,7 @@ p {
 html {
   background-image: url(image/galaxy.webp);
 }
+
 input {
-  padding: auto 100px;
+  width: 400px;
 }
