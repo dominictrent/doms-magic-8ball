@@ -10,23 +10,25 @@ function Magicbtn() {
   } else if (randNum < 0.2) {
     AnswerID = "Yes 100%";
   } else if (randNum < 0.3) {
-    AnswerID = "Its a high possibility";
+    AnswerID = "";
   } else if (randNum < 0.4) {
-    AnswerID = "Yes,possibly";
+    AnswerID = "Most likely";
   } else if (randNum < 0.5) {
-    AnswerID = "Maybe";
+    AnswerID = "Dont count on it";
   } else if ((randNum, 0.6)) {
-    AnswerID = "No";
+    AnswerID = "yes";
   } else if (randNum < 0.7) {
-    AnswerID = "Probably not";
+    AnswerID = "ask again later";
   } else if (randNum < 0.8) {
-    AnswerID = "Very low possibly";
+    AnswerID = "better not to say";
   } else if (randNum < 0.8) {
     AnswerID = "Absolutely not";
   } else if (randNum < 0.9) {
-    AnswerID = "No chance";
+    AnswerID = "As far as i see it yes";
   } else if (randNum < 1.0) {
     AnswerID = "Not at all";
+  } else {
+    AnswerID = "?";
   }
 
   document.getElementById("output").innerHTML = `Answer: ${AnswerID}`;
