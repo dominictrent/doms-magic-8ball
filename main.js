@@ -1,11 +1,18 @@
 document.getElementById("Magicbtn").addEventListener("click", Magicbtn);
+document.getElementById("question");
 
 function Magicbtn() {
   let randNum = Math.random();
   console.log(randNum);
+  let Q = document.getElementById("question");
 
-  let AnswerID = "";
-  if (randNum < 0.1) {
+  if (Q === "") {
+    AnswerID = "please type in a question";
+  } else if (Q === "does the magic 8 ball lie?") {
+    AnswerID = "No it doesnt lie";
+  } else if (Q === "Will the eagles win the superbowl") {
+    AnswerID = "Yes they will";
+  } else if (randNum < 0.1) {
     AnswerID = "Without a Doubt!";
   } else if (randNum < 0.2) {
     AnswerID = "Yes 100%";
@@ -15,8 +22,8 @@ function Magicbtn() {
     AnswerID = "Most likely";
   } else if (randNum < 0.5) {
     AnswerID = "Dont count on it";
-  } else if ((randNum, 0.6)) {
-    AnswerID = "yes";
+  } else if (randNum < 0.6) {
+    AnswerID = "not to sure";
   } else if (randNum < 0.7) {
     AnswerID = "ask again later";
   } else if (randNum < 0.8) {
